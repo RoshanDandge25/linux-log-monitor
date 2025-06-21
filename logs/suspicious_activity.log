@@ -1,0 +1,48 @@
+
+--- Failed login attempts on 2025-06-22 01:28:50.766697 ---
+2025-06-22T01:22:31.236922+05:30 Ubantu su: pam_unix(su:auth): authentication failure; logname=roshan uid=1000 euid=0 tty=/dev/pts/0 ruser=roshan rhost=  user=root
+2025-06-22T01:22:38.195727+05:30 Ubantu su: pam_unix(su:auth): authentication failure; logname=roshan uid=1000 euid=0 tty=/dev/pts/0 ruser=roshan rhost=  user=root
+2025-06-22T01:24:56.292275+05:30 Ubantu su: pam_unix(su:auth): authentication failure; logname=roshan uid=1000 euid=0 tty=/dev/pts/0 ruser=roshan rhost=  user=root
+2025-06-22T01:25:03.679269+05:30 Ubantu su: pam_unix(su:auth): authentication failure; logname=roshan uid=1000 euid=0 tty=/dev/pts/0 ruser=roshan rhost=  user=root
+2025-06-22T01:25:10.584155+05:30 Ubantu su: pam_unix(su:auth): authentication failure; logname=roshan uid=1000 euid=0 tty=/dev/pts/0 ruser=roshan rhost=  user=root
+
+--- Failed login attempts on 2025-06-22 01:31:21.146611 ---
+2025-06-22T01:22:31.236922+05:30 Ubantu su: pam_unix(su:auth): authentication failure; logname=roshan uid=1000 euid=0 tty=/dev/pts/0 ruser=roshan rhost=  user=root
+2025-06-22T01:22:38.195727+05:30 Ubantu su: pam_unix(su:auth): authentication failure; logname=roshan uid=1000 euid=0 tty=/dev/pts/0 ruser=roshan rhost=  user=root
+2025-06-22T01:24:56.292275+05:30 Ubantu su: pam_unix(su:auth): authentication failure; logname=roshan uid=1000 euid=0 tty=/dev/pts/0 ruser=roshan rhost=  user=root
+2025-06-22T01:25:03.679269+05:30 Ubantu su: pam_unix(su:auth): authentication failure; logname=roshan uid=1000 euid=0 tty=/dev/pts/0 ruser=roshan rhost=  user=root
+2025-06-22T01:25:10.584155+05:30 Ubantu su: pam_unix(su:auth): authentication failure; logname=roshan uid=1000 euid=0 tty=/dev/pts/0 ruser=roshan rhost=  user=root
+
+--- Failed login attempts on 2025-06-22 01:33:03.698667 ---
+2025-06-22T01:22:31.236922+05:30 Ubantu su: pam_unix(su:auth): authentication failure; logname=roshan uid=1000 euid=0 tty=/dev/pts/0 ruser=roshan rhost=  user=root
+2025-06-22T01:22:38.195727+05:30 Ubantu su: pam_unix(su:auth): authentication failure; logname=roshan uid=1000 euid=0 tty=/dev/pts/0 ruser=roshan rhost=  user=root
+2025-06-22T01:24:56.292275+05:30 Ubantu su: pam_unix(su:auth): authentication failure; logname=roshan uid=1000 euid=0 tty=/dev/pts/0 ruser=roshan rhost=  user=root
+2025-06-22T01:25:03.679269+05:30 Ubantu su: pam_unix(su:auth): authentication failure; logname=roshan uid=1000 euid=0 tty=/dev/pts/0 ruser=roshan rhost=  user=root
+2025-06-22T01:25:10.584155+05:30 Ubantu su: pam_unix(su:auth): authentication failure; logname=roshan uid=1000 euid=0 tty=/dev/pts/0 ruser=roshan rhost=  user=root
+
+--- Sudo command usage on 2025-06-22 01:46:44.665422 ---
+2025-06-22T00:11:38.788241+05:30 Ubantu sudo:   roshan : TTY=pts/0 ; PWD=/home/roshan ; USER=root ; COMMAND=/usr/bin/apt install mailutils cron git -y
+2025-06-22T00:34:39.810425+05:30 Ubantu sudo:   roshan : TTY=pts/0 ; PWD=/home/roshan/linux-log-monitor/logs ; USER=root ; COMMAND=/usr/bin/apt install tree -y
+2025-06-22T01:14:44.795257+05:30 Ubantu sudo:   roshan : TTY=pts/0 ; PWD=/home/roshan ; USER=root ; COMMAND=/usr/bin/tail -n 20 /var/log/auth.log
+2025-06-22T01:26:27.558639+05:30 Ubantu sudo:   roshan : TTY=pts/0 ; PWD=/home/roshan/linux-log-monitor ; USER=root ; COMMAND=/usr/bin/tail -n 50 /var/log/auth.log
+2025-06-22T01:32:39.074641+05:30 Ubantu sudo:   roshan : TTY=pts/0 ; PWD=/home/roshan/linux-log-monitor ; USER=root ; COMMAND=/usr/bin/ls /root
+
+--- New user creation detected on 2025-06-22 01:49:19.949091 ---
+2025-06-22T00:14:18.843804+05:30 Ubantu useradd[5216]: new user: name=postfix, UID=123, GID=125, home=/var/spool/postfix, shell=/usr/sbin/nologin, from=none
+
+--- Failed login attempts on 2025-06-22 01:52:42.814136 ---
+2025-06-22T01:22:31.236922+05:30 Ubantu su: pam_unix(su:auth): authentication failure; logname=roshan uid=1000 euid=0 tty=/dev/pts/0 ruser=roshan rhost=  user=root
+2025-06-22T01:22:38.195727+05:30 Ubantu su: pam_unix(su:auth): authentication failure; logname=roshan uid=1000 euid=0 tty=/dev/pts/0 ruser=roshan rhost=  user=root
+2025-06-22T01:24:56.292275+05:30 Ubantu su: pam_unix(su:auth): authentication failure; logname=roshan uid=1000 euid=0 tty=/dev/pts/0 ruser=roshan rhost=  user=root
+2025-06-22T01:25:03.679269+05:30 Ubantu su: pam_unix(su:auth): authentication failure; logname=roshan uid=1000 euid=0 tty=/dev/pts/0 ruser=roshan rhost=  user=root
+2025-06-22T01:25:10.584155+05:30 Ubantu su: pam_unix(su:auth): authentication failure; logname=roshan uid=1000 euid=0 tty=/dev/pts/0 ruser=roshan rhost=  user=root
+
+--- Sudo command usage on 2025-06-22 01:52:46.014395 ---
+2025-06-22T00:11:38.788241+05:30 Ubantu sudo:   roshan : TTY=pts/0 ; PWD=/home/roshan ; USER=root ; COMMAND=/usr/bin/apt install mailutils cron git -y
+2025-06-22T00:34:39.810425+05:30 Ubantu sudo:   roshan : TTY=pts/0 ; PWD=/home/roshan/linux-log-monitor/logs ; USER=root ; COMMAND=/usr/bin/apt install tree -y
+2025-06-22T01:14:44.795257+05:30 Ubantu sudo:   roshan : TTY=pts/0 ; PWD=/home/roshan ; USER=root ; COMMAND=/usr/bin/tail -n 20 /var/log/auth.log
+2025-06-22T01:26:27.558639+05:30 Ubantu sudo:   roshan : TTY=pts/0 ; PWD=/home/roshan/linux-log-monitor ; USER=root ; COMMAND=/usr/bin/tail -n 50 /var/log/auth.log
+2025-06-22T01:32:39.074641+05:30 Ubantu sudo:   roshan : TTY=pts/0 ; PWD=/home/roshan/linux-log-monitor ; USER=root ; COMMAND=/usr/bin/ls /root
+
+--- New user creation detected on 2025-06-22 01:52:49.404413 ---
+2025-06-22T00:14:18.843804+05:30 Ubantu useradd[5216]: new user: name=postfix, UID=123, GID=125, home=/var/spool/postfix, shell=/usr/sbin/nologin, from=none
