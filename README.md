@@ -39,17 +39,16 @@ A lightweight and effective Linux log monitoring tool that scans for:
 
 linux-log-monitor/
 ├── alerts/
-│ └── email_alert.py
+│ └── email_alert.py # Email notification logic
 ├── logs/
-│ └── suspicious_activity.log
+│ └── suspicious_activity.log # Logs all detected events
 ├── monitor/
-│ ├── failed_login.py
-│ ├── sudo_usage.py
-│ └── new_user.py
-├── main.py
-├── requirements.txt
-└── README.md
-
+│ ├── failed_login.py 
+│ ├── sudo_usage.py 
+│ └── new_user.py 
+├── main.py 
+├── requirements.txt 
+└── README.md 
 
 
 🙏 Usage & Permission Note
